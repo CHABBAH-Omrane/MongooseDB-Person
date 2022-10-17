@@ -4,7 +4,7 @@ const mongoose =require('mongoose')
 
 const port =5000
 app.use(express.json())
-mongoose.connect("mongodb+srv://chabbah:chabbah@cluster0.raunanq.mongodb.net/MyFirstDatabase?retryWrites=true&w=majority",
+mongoose.connect("mongodb+srv://*******:********@cluster0.raunanq.mongodb.net/MyFirstDatabase?retryWrites=true&w=majority",
 ()=>console.log("database is connected"))
 
 
